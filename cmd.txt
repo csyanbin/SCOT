@@ -32,3 +32,9 @@ python evaluate_map_CAM.py --dataset spair --thres bbox --backbone resnet101 --h
 ## SCOT on TSS with res101
 python evaluate_map_TSS_CAM.py --dataset TSS --thres img --backbone resnet101 --hyperpixel '(2, 22, 24, 25, 27, 28, 29)' --sim OTGeo --exp1 1 --exp2 1 --eps 0.05 --gpu 0 --classmap 1
 
+
+
+## Beam Search
+python beamsearch.py --dataset pfpascal --backbone resnet101 --thres img --exp1 1.0 --exp2 0.5 --classmap 0
+python beamsearch.py --dataset spair --backbone resnet50 --thres bbox --classmap 0
+python beamsearch.py --dataset spair --backbone resnet101 --thres bbox --classmap 0
