@@ -96,7 +96,7 @@ class PFPascalDataset(CorrespondenceDataset):
     def get_mask(self, img_names, idx):
         r"""Return image mask"""
         img_name = os.path.join(self.img_path, img_names[idx])
-        mask_name = img_name.replace('JPEGImages', self.cam)
+        mask_name = img_name.replace('/JPEGImages', '-'+self.cam)
         if os.path.exists(mask_name):
             mask = np.array(Image.open(mask_name)) # WxH
         else:
