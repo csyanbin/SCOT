@@ -1,5 +1,6 @@
 ## Semantic Correspondence as an Optimal Transport Problem
 This is the implementation of our CVPR2020 paper "Semantic Correspondence as an Optimal Transport Problem" by Liu, Y., Zhu, L., Yamada, M. and Yang, Y.
+
 Implemented on Python 3.6 and Pytorch 1.4.0.
 
 For more information, check out the paper on [[CVPR2020](https://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Semantic_Correspondence_as_an_Optimal_Transport_Problem_CVPR_2020_paper.pdf)].
