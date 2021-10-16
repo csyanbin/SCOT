@@ -79,7 +79,8 @@ def download_dataset(datapath, benchmark):
     file_data = {
         'pfwillow': ('1tDP0y8RO5s45L-vqnortRaieiWENQco_', 'PF-WILLOW'),
         'pfpascal': ('1OOwpGzJnTsFXYh-YffMQ9XKM_Kl_zdzg', 'PF-PASCAL'),
-        'spair': ('1s73NVEFPro260H1tXxCh1ain7oApR8of', 'SPair-71k')
+        'spair': ('1KSvB0k2zXA06ojWNvFjBv0Ake426Y76k', 'SPair-71k')
+        # 'spair': ('1s73NVEFPro260H1tXxCh1ain7oApR8of', 'SPair-71k') old version
     }
 
     file_id, filename = file_data[benchmark]
